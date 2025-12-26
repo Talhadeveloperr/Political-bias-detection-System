@@ -1,0 +1,94 @@
+@keyframes neonGlow {
+  0% {
+    box-shadow: 0 0 5px #00ff00, 0 0 10px #008000, inset 0 0 5px #00ff00;
+  }
+  50% {
+    box-shadow: 0 0 15px #00ff00, 0 0 25px #008000, inset 0 0 15px #00ff00;
+  }
+  100% {
+    box-shadow: 0 0 5px #00ff00, 0 0 10px #008000, inset 0 0 5px #00ff00;
+  }
+}
+
+.animate-neon-glow {
+  animation: neonGlow 1.5s infinite alternate ease-in-out;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background: #111;
+  border-bottom: 1px solid #333;
+}
+
+.navbar-title {
+  font-size: 1.5rem;
+  color: #00ff99;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+}
+
+/* Bias Detector */
+.bias-detector-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #333;
+  border-radius: 12px;
+  background-color: #111;
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+  color: #00ff99;
+}
+
+.bias-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.bias-input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #555;
+  font-size: 1rem;
+  resize: none;
+  background: #000;
+  color: #fff;
+}
+
+.bias-button {
+  padding: 10px 15px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #00cc66;
+  color: #fff;
+  transition: background 0.3s;
+}
+
+.bias-button:hover:not(:disabled) {
+  background-color: #00ff99;
+}
+
+.result-box {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 8px;
+  background: #222;
+  border: 1px solid #444;
+  font-size: 1.1rem;
+  color: #fff;
+}

@@ -1,0 +1,13 @@
+# Python virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# ML model files
+backend/label_encoder.pkl
+backend/bert_bias_model.pt
+
+# Node.js dependencies (ALL frontend/backend)
+node_modules/
+**/node_modules/

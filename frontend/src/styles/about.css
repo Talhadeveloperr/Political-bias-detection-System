@@ -1,0 +1,29 @@
+.about-page {
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 30px;
+  background: #111;
+  border: 1px solid #333;
+  border-radius: 12px;
+  box-shadow: 0 0 10px #00ff99;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.about-page h2 {
+  color: #00ff99;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.about-page p {
+  color: #e0e0e0;
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+}
+
+.about-page strong {
+  color: #00ff99;
+}
